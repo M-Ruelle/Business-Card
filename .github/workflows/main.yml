@@ -19,4 +19,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           name: PDF
-          path: card.pdf
+          files: card.pdf
