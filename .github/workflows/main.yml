@@ -19,5 +19,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         if: startWith(github.ref, 'refs/tags/')
         with:
-          name: PDF
           files: card.pdf
