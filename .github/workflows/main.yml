@@ -12,7 +12,7 @@ jobs:
           root_file: card.tex
           latexmk_use_xelatex: true
       - name: Upload PDF file
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: PDF
           path: card.pdf
